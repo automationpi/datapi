@@ -95,4 +95,4 @@ You can test this service by calling the get services from browser.
 
 This data can be consumed by any test tool or automation solution developed in any programming language.
 
-*Data may be in any database file or synthetic test data you want to create. With this solution its possible to achieve this.
+*Data may be in any database file or synthetic test data you want to create. With Data𝜋 as in you solution  ecosystem, its possible to achieve this.
