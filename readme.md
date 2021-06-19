@@ -30,15 +30,6 @@ const datapi = require('datapi');
 const crypto = require("crypto");
 const mysql = require("mysql");
 
-sql = mysql.createConnection({
-  host: 'localhost',
-  user: 'tester',
-  password: 'Tester123',
-  database: 'company'
-});
-
-
-
 //generate unique number of specified length
 datapi.dataHandler.get('/random', async (request, reply) => {
     var randomNumber = Math.floor(Math.random() * ((request.query.length == undefined) ? 1000 : parseInt(request.query.length))) + 1; 
