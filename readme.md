@@ -44,7 +44,7 @@ datapi.dataHandler.get('/random', async (request, reply) => {
   
   
   //example of DB
-  datapi.dataHandler.get('/uuid', async (request, reply) => {
+  datapi.dataHandler.get('/gerfromdb', async (request, reply) => {
         
         var connection = mysql.createConnection(
             {
