@@ -65,7 +65,7 @@ datapi.dataHandler.get('/random', async (request, reply) => {
 				 res.status(200);	
             } else {
 				res.header('Content-type','application/json');	
-                 res.send({"cvr" : rows});                     
+                 return (JSON.stringify({"cvr" : rows}));      
             }            
         });       
     })
