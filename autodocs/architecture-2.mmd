@@ -1,0 +1,13 @@
+flowchart TD
+    A[User Opens Application] --> B[Application Loads index.js]
+    B --> C[Helper.js Functions Initialized]
+    C --> D[Application Reads package.json for Dependencies]
+    D --> E[Application Reads package-lock.json for Lockfile Data]
+    E --> F[Application Loads User Interface]
+    F --> G[User Interacts with UI]
+    G --> H[Application Processes User Input]
+    H --> I[Helper.js Performs Utility Operations]
+    I --> J[Application Updates UI or Data]
+    J --> G
+    F --> K[Application Reads readme.md for Documentation (Optional)]
+    K --> L[Display Documentation or Help Content]

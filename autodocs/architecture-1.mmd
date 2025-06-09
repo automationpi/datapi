@@ -1,0 +1,28 @@
+graph TD
+    A[helper.js]
+    B[index.js]
+    C[server.js]
+    D[package.json]
+    E[package-lock.json]
+    F[readme.md]
+    G[tester's app.js]
+    H[tester's package.json]
+    I[tester's package-lock.json]
+
+    D --> A
+    D --> B
+    D --> C
+    D --> G
+    D --> E
+    D --> H
+    D --> I
+    E --> A
+    E --> B
+    E --> C
+    E --> G
+    E --> H
+    E --> I
+    F
+    G
+    H
+    I
